@@ -16,7 +16,7 @@ public class ProductController {
     
     @GetMapping("/")
     public String createSample() {
-        return "Welcome ITER";
+        return "Hello Spring";
     }
     
     @GetMapping("/rest/products")
